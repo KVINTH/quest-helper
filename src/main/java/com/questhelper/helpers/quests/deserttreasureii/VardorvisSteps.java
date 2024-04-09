@@ -412,7 +412,7 @@ public class VardorvisSteps extends ConditionalStep
 		/* Getting the medallion */
 		ObjectStep leavePyramid = new ObjectStep(getQuestHelper(), ObjectID.STAIRS_48730, new WorldPoint(1183, 9809, 0), "");
 		goGetVardorvisMedallion = new ConditionalStep(getQuestHelper(), boardBoat,
-			"Search the north-east chest in Kadsone's initial hideout for a medallion.");
+			"Search the north-east chest in Kasonde's initial hideout for a medallion.");
 		goGetVardorvisMedallion.addStep(inStranglewoodPyramidRoom, leavePyramid);
 		goGetVardorvisMedallion.addStep(new Conditions(inAnyStranglewood), searchChestForVardorvisMedallion);
 
